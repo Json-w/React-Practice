@@ -5,7 +5,5 @@ import { Router, Link, Route ,browserHistory} from 'react-router';
 
 import App from './src/container/App'
 
-ReactDOM.render(
-    <App />, document.getElementById('content'));
+ReactDOM.render(<App/>, document.getElementById('content'));
 
-console.log(3);
