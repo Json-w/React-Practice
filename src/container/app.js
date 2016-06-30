@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
-import HelloWorld from '../components/helloWorld'
+import HelloWorld from '../components/HelloWorld'
 
 class App extends Component{
 
     render(){
-        return (<HelloWorld/>);
+        return (<HelloWorld />);
     };
 
 }
+
+export default App;
