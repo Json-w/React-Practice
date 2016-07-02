@@ -3,6 +3,7 @@ import {Card, CardTitle, CardText, CardActions,Button} from 'react-mdl'
 
 class AemInstances extends Component{
 	render(){
+		console.log(this.props.data)
 		var cardNodes = this.props.data.map(function(aemInstance){
 				return (
 					<Card shadow={0} className="customCard" key={aemInstance.id}>

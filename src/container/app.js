@@ -49,11 +49,12 @@ class App extends Component{
 			}.bind(this),
 			error:function(xhr,status,err){
 				console.log(err);
-			}
+				this.setState({url:'',data:mockData})
+			}.bind(this)
 		});
 	}
 	handleSearchSubmit(searchText){
-
+		console.log('searchText',searchText);
 	}
 	componentDidMount(){
 		this.loadInstancesFromServer();
