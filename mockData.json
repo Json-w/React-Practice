@@ -1,0 +1,16 @@
+[
+	{
+		"id":"i-cd432ge3",
+		"private_ip_address":"10.43.12.43",
+		"tags":{
+			"AEM-ROLE":"publish",
+			"AutoStartStop":"{\"start-time\":\"\",\"stop-time\":\"\",\"days\":\"\"}",
+			"Name":"fsdkfjs",
+			"Workspace":"W-2312434",
+			"aws:autoscaling:groupName":"sujflkdsjklfjs",
+			"aws:cloudformation:logical-id":"publishfd",
+			"aws:cloudformation:stack-id":"jfkjsdklfjsdkjflsdf",
+			"aws:cloudformation:stack-name":"jfklsjdfg"
+		}
+	}
+]

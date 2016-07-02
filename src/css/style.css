@@ -2,3 +2,48 @@
     padding: 0;
     margin: 0;
 }
+
+h1{
+	display:inline-block;
+}
+
+.logo{
+	float: left;
+}
+.customer-header{
+    color: #337ab7;
+    margin: auto;
+    width: 100%;
+}
+
+.search-bar{
+	float: right;
+	display: inline-block;
+	margin-right: 60px;
+	margin-top: 40px;
+}
+#content{
+	width: 80%;
+	margin:auto;
+}
+
+span{
+	margin-left: 15px;
+}
+
+.aemInstances{
+	float: left;
+	width: auto;
+	margin-top: 30px;
+	margin-left: 40px;
+}
+
+.customCard{
+	margin-left:10px;
+	width: auto;
+    height: auto;
+	float:left;
+	display:inline-block;
+	min-height: 0px !important;
+}
+

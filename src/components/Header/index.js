@@ -1,11 +1,12 @@
 import React,{Component} from 'react'
+import SearchBar from '../SearchBar'
 
 class Header extends Component{
     render(){
         return(
-            //Todo:css not work.
-            <div className="page-header">
-                <h1>AEM <small>Digital Media</small></h1>
+            <div className="page-header customer-header logo">
+                <h1>*** <small>***** ****</small></h1>
+                <SearchBar />
             </div>
         );
     }
