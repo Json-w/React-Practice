@@ -16,7 +16,7 @@ class SearchBar extends Component{
 		var searchText = this.state.searchText.trim();
 		var url = this.state.url.trim();
 		this.props.onSearch({searchText:searchText,url:url});
-		this.setState({searchText:'',url:''});
+		// this.setState({searchText:'',url:''});
 	}	
 	render(){
 		return(
