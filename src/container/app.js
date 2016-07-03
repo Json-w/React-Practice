@@ -57,13 +57,18 @@ class App extends Component{
 		console.log('searchText',search.searchText);
 		console.log('url',search.url);
 		//fetch the data from Internet, and update the state.
+		if(search.searchText.trim()===''){
+			this.setState({url:'',data:mockData});
+		}else{
+			this.setState({url:'',data:[]});
+		}
 	}
 	componentDidMount(){
 		this.loadInstancesFromServer();
 	}
     render(){
         return (<div>
-        		<Header onSearch={this.handleSearchSubmit}/>
+        		<Header onSearch={this.handleSearchSubmit.bind(this)}/>
         		<AemInstances data={this.state.data}/>
         	</div>);
     };
