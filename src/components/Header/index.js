@@ -6,7 +6,7 @@ class Header extends Component{
         return(
             <div className="page-header customer-header logo">
                 <h1>*** <small>***** ****</small></h1>
-                <SearchBar />
+                <SearchBar onSearch={this.props.onSearch}/>
             </div>
         );
     }

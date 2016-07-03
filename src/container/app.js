@@ -53,8 +53,10 @@ class App extends Component{
 			}.bind(this)
 		});
 	}
-	handleSearchSubmit(searchText){
-		console.log('searchText',searchText);
+	handleSearchSubmit(search){
+		console.log('searchText',search.searchText);
+		console.log('url',search.url);
+		//fetch the data from Internet, and update the state.
 	}
 	componentDidMount(){
 		this.loadInstancesFromServer();
